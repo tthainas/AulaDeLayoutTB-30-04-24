@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main
+{
+    border: 1px solid black;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+header, section, footer
+{
+    border: 1px solid black;
+    margin: 1rem;
+    text-align: center;
+    background-color: rgb(41, 70, 126);
+    color: #fff;
+}
+header
+{
+    min-height: 100px
+}
+article
+{
+    display: flex;
+}
+section
+{
+    min-height: 300px;
+}
+.texto1
+{
+    width: 100%;
+}
+aside
+{
+    width: 100%;
+}
+footer
+{
+    min-height: 200px;
+}
